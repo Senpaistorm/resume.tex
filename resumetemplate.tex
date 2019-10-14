@@ -34,7 +34,7 @@
 % personal data
 \name{Xiang(Austin)}{Li}
 % \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
-\address{128-50 Scarborough Golf Club Road }{Toronto, ON}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\address{50 Scarborough Golf Club Road }{Toronto, ON}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 % \phone[mobile]{909-839-3097}                   % optional, remove / comment the line if not wanted
 % \phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
@@ -110,13 +110,58 @@
 	\end{center}
 	
 	\section{EDUCATION}
-	{\customcventry{Expected Graduation: November 2019}{BA in Computer Science GPA: 3.64/4.0}{University of Toronto Scarborough}{Toronto, ON}{}{}}
+	{\customcventry{Sep 2015 - Aug 2019}{BA in Computer Science GPA: 3.58/4.0}{University of Toronto Scarborough}{Toronto, ON}{}{}}
+		{\begin{itemize}
+				\item Dean's List every academic year from 2015-2019
+		\end{itemize}}
+	\section{SKILLS}
+		\begin{minipage}{\maincolumnwidth}
+			{\customcvproject{Technical}{}
+			{
+				\begin{itemize}
+					%\item President of XYZ Club, Public Relations Manager of Swarthmore QWE Club
+					\item Python 3, Java, Javascript(ES6), C, HTML5, CSS
+					\item Angular, Django, React
+					\item Node.js, MySQL, NoSQL, RESTful APIs, Git, Agile(Scrum)
+			\end{itemize}}}
+			{\customcvproject{Soft}{}{
+				\begin{itemize}
+					\item Analytical, Self motivation, Time management, Attention to detail, Priority Management
+				\end{itemize}
+			}}
+		\end{minipage}
+	
+	\section{PROJECTS}
+	{\customcvproject{Bomb Man}{Apr 2019}
+		{\begin{itemize}
+				\item Built a multiplayer browser game using Javascript, node.js and WebGL
+				\item Implemented frontend UI and game queue using real time communication between clients and server with socket.io
+				\item Optimized 3D game models and implemented gameplay logics using Breadth First Search algorithm							
+			\end{itemize}
+		}
+	}
+	
+	{\customcvproject{Course Manager}{Jan 2019}
+		{\begin{itemize}
+				\item Developed an easy-to-use web app to track course grades and progress with Django
+				\item Learned Django during the development process with no previous experience on the framework
+				\item Designed relational database models to store courses, grades and users with Python and SQLite
+			\end{itemize}
+		}
+		
+	{\customcvproject{Ray Tracer}{Dec 2018}
+		{\begin{itemize}
+				\item Implemented an advanced ray tracing program in C that generates an image by tracing the path of light as pixels
+				\item Developed features including the Phong model, reflection, refraction, area light source, soft shadows, texture mapping, normal mapping, and alpha mapping
+			\end{itemize}
+		}
+	}	
+	}
 	
 	\section{EXPERIENCE}
-	
 	{\customcventry{Jan 2018 - Apr 2018}{Software Developer}{Maple Leaf Foods}{Toronto, ON}{}
 		{\begin{itemize}
-				\item Built a responsive, lightweight Angular website in a small team to advertise the co-op program
+				\item Built a responsive, lightweight Angular website in a small team to advertise the co-op program that optimized load speed by 90\%
 				\item Worked full-stack in a small team of two to debug and maintain an ASP.NET web app that tracks downtime of different plants
 			\end{itemize}
 		}
@@ -129,49 +174,7 @@
 			}
 			
 				
-				\section{PROJECTS}
-				
-				{\customcvproject{Bomb Man}{Apr 2019}
-					{\begin{itemize}
-							\item Created a 2-4 multiplayer browser game using node.js and WebGL
-							\item Implemented frontend UI and real time communication between clients and server with socket.io
-							\item Optimized 3D game models and implemented gameplay logics using algorithms like BFS
-							\item Featured top 5 project out of more than 50 other projects							
-						\end{itemize}
-					}
-				}
-				
-				{\customcvproject{Course Manager}{Jan 2019}
-					{\begin{itemize}
-							\item Developed an easy-to-use web app to track course grades and progress with Django
-							\item Learned Django during the development process with no previous experience on the framework
-							\item Created relational database models to store courses, grades and users with Python and SQLite
-						\end{itemize}
-					}
-					
-					{\customcvproject{Ray Tracer}{Dec 2018}
-						{\begin{itemize}
-								\item Implemented an advanced ray tracing program in C that generates an image by tracing the path of light as pixels
-								\item Developed features including the Phong model, reflection, refraction, area light source, soft shadows, texture mapping, normal mapping, and alpha mapping
-							\end{itemize}
-						}
-					}
-					
-					\section{ADDITIONAL}
-					\begin{minipage}{\maincolumnwidth}%
-						\small{
-							\begin{itemize}
-								\item Relevant Coursework: Data Structures and Algorithm Design, Machine Learning, Web Programming, Computer Graphics, Databases, Operating Systems
-								%\item President of XYZ Club, Public Relations Manager of Swarthmore QWE Club
-								\item Programming Languages: Python, C, Java, HTML/CSS, Javascript, jQuery, NodeJS
-								\item Web Frameworks: Angular, Django
-								\item Tools: Visual Studio, Git, Terminal, AWS EC2
-								%\item Fluent in Gibberish, conversational in Nonsense
-						\end{itemize}}%
-					\end{minipage}%
-					
-				}
-				% Publications from a BibTeX file without multibib
+		% Publications from a BibTeX file without multibib
 				%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
 				%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
 				%\nocite{*}
